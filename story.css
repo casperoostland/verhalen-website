@@ -1,0 +1,21 @@
+.story {
+    display: none;
+}
+
+@media screen and (min-width: 20em) and (max-width: 50em) {
+    .storyMobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 50em) and (max-width: 68em) {
+    .storyTablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 68em){
+    .storyDesktop {
+        display: block;
+    }
+}

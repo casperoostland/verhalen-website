@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Nexa-Bold";
+    src: URL("Nexa-Bold.otf");
+}
+
+* {
+
+    font-family: "Nexa-Bold";
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:url("strand.jpg");
+}
+
+nav {
+    margin: 10px;
+}
+/*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
+body > header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+}
+
+body > header li a {
+    display: block;
+    color: #00D66C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+
+}
+
+body > header li a:hover:not(.active) {
+    color: #2800A0;
+}
+
+body > header li a.active {
+    color: #2800A0;
+}
+
+body > main {
+    margin-bottom: auto;
+}
+
+
+body {
+    background-image: url("strand.jpg");
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, {
+    color:black;
+
+}
+
+
+form {
+    width: 300px;
+    padding: 25px;
+    color:black;
+    font-size: 1em;
+    text-align: left;
+}
+
+form:first-child {
+    background-color: white;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius:1em;
+}
+
+form:last-child {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius:1em;
+    background-color: #f5f8fa;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #FF3268;
+    padding: .5em 2em;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #1e9162;
+    border: none;
+    border-radius: 5em;
+    text-decoration: none;
+    border-radius: 2em;
+    margin: auto;
+}
+
