@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-image: url(strand.jpg);
+   
     
     background-color: #F3E5D8;
 }
@@ -27,7 +27,23 @@ nav {
     margin-bottom: 0;
 }
 
+.section {
+    background-image: url(strand.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    background-color: black;
+    
+    
+}
 
+.h2 {
+    color: white;
+    font-size: 4em;
+    font-family: "Nexa-Bold";
+    padding: .9em;
+    
+}
 
 
 /*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/

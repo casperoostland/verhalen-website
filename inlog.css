@@ -16,7 +16,6 @@ html {
 
 body {
     background-image: url(strand.jpg);
-    
     background-color: #F3E5D8;
 }
 
@@ -164,10 +163,10 @@ input:valid {
     background-color: green;
 }
 
-input[type="text"]:focus:hover{
+input:focus{
 outline: none;
-box-shadow: 0px 0px 5px #61C5FA;
-border:1px solid #5AB0DB;
-border-radius:0;
+
+border:1px solid #FF3268;
+
 }    
 
