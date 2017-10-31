@@ -90,7 +90,7 @@ article h1 {
 article.hidden {
   display: none;
 }
-
+#moreBtn,
 .modal-content a,
 article footer a:first-child {
   font-family: "Cabin", sans-serif;
@@ -314,6 +314,8 @@ ul.navbar-filters button.control.active {
     flex-wrap: wrap;
     justify-content: center;
   }
+    
+    
 }
 
 @media screen and (min-width: 50em) {
@@ -331,6 +333,7 @@ ul.navbar-filters button.control.active {
   .modal-content {
     width: 50%;
   }
+    
 }
 
 @media screen and (min-width: 68em) {
@@ -413,27 +416,39 @@ article:nth-of-type(3) {
 }
 
 article:nth-of-type(4) {
-  background-color: brown;
+  background-image: url(images/articleimages/Moe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article:nth-of-type(5) {
-  background-color: yellowgreen;
+  background-image: url(images/articleimages/Verliefd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article:nth-of-type(6) {
-  background-color: blue;
+  background-image: url(images/articleimages/Literally.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article:nth-of-type(7) {
-  background-color: blue;
+  background-image: url(images/articleimages/Kater.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article:nth-of-type(8) {
-  background-color: blue;
+  background-image: url(images/articleimages/iphone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 article:nth-of-type(9) {
-  background-color: blue;
+  background-image: url(images/articleimages/Harry_Mulisch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
@@ -449,7 +464,7 @@ section {
   width: 50%;
   /* doe ff 100 op mobiel */
   height: 50px;
-  background-color: red;
+  background-color: gray;
   margin-left: 15px;
   margin-bottom: 15px;
   justify-content: center;
@@ -464,3 +479,16 @@ section {
   opacity: 1;
   animation: fadein 1s;
 }
+
+#moreBtn {
+    margin: auto;
+    
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em){
+  .popup {
+    width: 80%;
+    
+  }
+  
+
