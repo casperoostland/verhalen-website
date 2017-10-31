@@ -1,28 +1,37 @@
-@font-face {
+   @font-face {
     font-family: "Nexa-Bold";
     src: URL("Nexa-Bold.otf");
 }
 
 * {
-
+    margin: 0;
+    padding: 0;
     font-family: "Nexa-Bold";
 }
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background:url("strand.jpg");
+    background-image: url(strand.jpg);
+    
+    background-color: #F3E5D8;
 }
 
 nav {
-    margin: 10px;
+    
+    display: flex;
+    background-color: white;
+    margin-bottom: 0;
 }
+
+
+
+
 /*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
+
 body > header ul {
     list-style-type: none;
     margin: 0;
@@ -34,31 +43,62 @@ body > header ul {
 
 body > header li a {
     display: block;
-    color: #00D66C;
+    color: #00d66c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Nexa-Bold";
     font-weight: bold;
-
 }
 
 body > header li a:hover:not(.active) {
-    color: #2800A0;
+    color: #2800a0;
 }
 
 body > header li a.active {
-    color: #2800A0;
+    color: #2800a0;
 }
 
 body > main {
     margin-bottom: auto;
 }
 
-
-body {
-    background-image: url("strand.jpg");
+article {
+    color: black;
+    padding: 1.5em;
+    
+    opacity: 0.9;
+    
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: fadein 1.5s;
 }
+
+@keyframes fadein {
+    /* https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+p {
+    
+    
+}
+
+article h1 {
+    color: #00d66c;
+}
+
+article.hidden {
+    display: none;
+}
+
 
 main {
     display: flex;
@@ -72,6 +112,7 @@ h1, h2, {
 
 
 form {
+    margin-top: 2em;
     width: 300px;
     padding: 25px;
     color:black;
