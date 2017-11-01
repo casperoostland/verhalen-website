@@ -115,7 +115,7 @@ body {
     background:url("strand.jpg");
 }
 
-nav {
+main {
     margin: 10px;
 }
 /*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/

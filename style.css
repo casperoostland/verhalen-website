@@ -37,6 +37,13 @@ nav {
     
 }
 
+h1 {
+    color: white;
+    font-size: 2em;
+    font-family: "Nexa-Bold";
+    padding: .9em;
+}
+
 .h2 {
     color: white;
     font-size: 4em;
