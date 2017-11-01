@@ -1,6 +1,6 @@
     @font-face {
     font-family: "Nexa-Bold";
-    src: URL("Nexa-Bold.otf");
+    src: URL("../fonts/Nexa-Bold.otf");
 }
 
 * {
@@ -28,7 +28,7 @@ nav {
 }
 
 .section {
-    background-image: url(strand.jpg);
+    background-image: url(../strand.jpg);
     background-size: cover;
     background-position: center;
     height: 15em;
@@ -447,7 +447,7 @@ main.playlist {
 }
 
 article:first-child {
-    background-image: url(images/articleimages/handen%20hart.jpg);
+    background-image: url(../images/articleimages/handen%20hart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -457,7 +457,7 @@ article:first-child {
 }
 
 article:nth-of-type(2) {
-    background-image: url(images/articleimages/opgebroken.jpg);
+    background-image: url(../images/articleimages/opgebroken.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -465,7 +465,7 @@ article:nth-of-type(2) {
 }
 
 article:nth-of-type(3) {
-    background-image: url(images/articleimages/blind.jpg);
+    background-image: url(../images/articleimages/blind.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -473,7 +473,7 @@ article:nth-of-type(3) {
 }
 
 article:nth-of-type(4) {
-    background-image: url(images/articleimages/Moe.jpg);
+    background-image: url(../images/articleimages/Moe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -481,7 +481,7 @@ article:nth-of-type(4) {
 }
 
 article:nth-of-type(5) {
-    background-image: url(images/articleimages/Verliefd.jpg);
+    background-image: url(../images/articleimages/Verliefd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -489,7 +489,7 @@ article:nth-of-type(5) {
 }
 
 article:nth-of-type(6) {
-    background-image: url(images/articleimages/Literally.jpg);
+    background-image: url(../images/articleimages/Literally.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -497,7 +497,7 @@ article:nth-of-type(6) {
 }
 
 article:nth-of-type(7) {
-    background-image: url(images/articleimages/Kater.jpg);
+    background-image: url(../images/articleimages/Kater.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -505,7 +505,7 @@ article:nth-of-type(7) {
 }
 
 article:nth-of-type(8) {
-    background-image: url(images/articleimages/iphone.jpg);
+    background-image: url(../images/articleimages/iphone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);
@@ -513,7 +513,7 @@ article:nth-of-type(8) {
 }
 
 article:nth-of-type(9) {
-    background-image: url(images/articleimages/Harry_Mulisch.jpg);
+    background-image: url(../images/articleimages/Harry_Mulisch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsla(0,0%,80%,0.70);

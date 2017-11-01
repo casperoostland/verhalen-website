@@ -1,6 +1,6 @@
    @font-face {
     font-family: "Nexa-Bold";
-    src: URL("Nexa-Bold.otf");
+    src: URL("../fonts/Nexa-Bold.otf");
 }
 
 * {
@@ -169,4 +169,21 @@ outline: none;
 border:1px solid #FF3268;
 
 }    
+
+@media screen and (min-width: 20em){
+    form {
+        min-width: 10em;
+        width: 15em;
+        min-height: 12em;
+        max-height: 20em;
+        border-radius: 0;
+
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
