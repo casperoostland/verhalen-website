@@ -1,3 +1,64 @@
+@font-face {
+    font-family: "Nexa-Bold";
+    src: URL("../fonts/Nexa-Bold.otf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nexa-Bold";
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F3E5D8
+}
+
+main {
+    margin: 10px;
+}
+/*selecteer aleen de header in de body waarvan body het directe parent is*/
+body > header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+}
+
+body > header li a {
+    display: block;
+    color: #00d66c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Nexa-Bold";
+    font-weight: bold;
+}
+
+body > header li a:hover:not(.active) {
+    color: #2800a0;
+}
+
+body > header li a.active {
+    color: #2800a0;
+}
+
+body > main {
+    margin-bottom: auto;
+}
+
+
+
+
 @media screen and (min-width: 20em){
     article {
         min-width: 10em;
@@ -15,17 +76,6 @@
     }
 }
 
-@media screen and (min-width: 50em){
-    ul.navbar-filters {
-        justify-content: flex-end;
-    }
-
-    ul.navbar-filters button.control {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-}
 
 
 
@@ -82,65 +132,6 @@ main.playlist {
     color: red;
 }
 
-@font-face {
-    font-family: "Nexa-Bold";
-    src: URL("Nexa-Bold.otf");
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Nexa-Bold";
-}
-
-body, html {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background:url("strand.jpg");
-}
-
-main {
-    margin: 10px;
-}
-/*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
-body > header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    display: flex;
-}
-
-body > header li a {
-    display: block;
-    color: #00D66C;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    font-weight: bold;
-   
-}
-
-body > header li a:hover:not(.active) {
-    color: #2800A0;
-}
-
-body > header li a.active {
-    color: #2800A0;
-}
-
-body > main {
-    margin-bottom: auto;
-}
-
-
 
 article  {
     color: black;
@@ -177,7 +168,5 @@ article footer i:hover {
     color: #FF4F83;
 }
 
-.box {
-    margin-left: auto;
-}
+
 

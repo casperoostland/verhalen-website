@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-image: url(strand.jpg);
+    
     background-color: #F3E5D8;
 }
 
@@ -131,7 +131,7 @@ form:last-child {
     background-color: #f5f8fa;
 }
 
-input[type=text], select {
+input[type=text], select, input[type=password]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -185,5 +185,11 @@ border:1px solid #FF3268;
         flex-wrap: wrap;
         justify-content: center;
     }
+@media screen and (min-width: 29em){
+    form {
+        
+        min-width: 20em;
+        min-height: 20em;
+        
 }
 
