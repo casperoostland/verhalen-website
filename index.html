@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -40,9 +40,9 @@
        
     </section>
      <ul class="navbar-filters">
-            <button type="button" class="filter control" data-filter="long">Lang</button>
-            <button type="button" class="filter control" data-filter="medium">Gemiddeld</button>
-            <button type="button" class="filter control" data-filter="short">Kort</button>
+            <li><button type="button" class="filter control" data-filter="long">Lang</button></li>
+            <li><button type="button" class="filter control" data-filter="medium">Gemiddeld</button></li>
+            <li><button type="button" class="filter control" data-filter="short">Kort</button></li>
         </ul>
    
     <main>
@@ -71,7 +71,7 @@
             <footer>
                 <a href="story/story2.html">Lees</a>
                 <a href="#" class="addPlaylist">
-                    <i class="fa fa-plus-circle fa-2x"></i>
+                <i class="fa fa-plus-circle fa-2x"></i>
                 </a>
             </footer>
         </article>
@@ -118,9 +118,9 @@
             </header>
             <p>Rond 12.00 uur stap ik uit de bus, die er letterlijk acht uur over heeft gedaan. Op het plein van Amsterdam Centraal. De regen geselt letterlijk mijn gezicht. Ik duw het wagentje voort waarin mijn zoontje ligt te slapen. </p>
             <footer>
-                <a href="https://www.verhalenPagina">Lees</a>
+                <a href="story6.html">Lees</a>
                 <a href="#" class="addPlaylist">
-                    <i class="fa fa-plus-circle fa-2x"></i>
+                <i class="fa fa-plus-circle fa-2x"></i>
                 </a>
             </footer>
         </article>
@@ -134,7 +134,7 @@
             <p>Ik had vandaag bus 21 willen nemen naar het Centraal Station om naar de Openbare Bibliotheek te gaan en Stijloefeningen van Raymond Queneau te lenen, een boekwerk waar ik al weken naar op zoek ben.
             </p>
             <footer>
-                <a href="https://www.verhalenPagina">Lees</a>
+                <a href="story6.html">Lees</a>
                 <a href="#" class="addPlaylist">
                     <i class="fa fa-plus-circle fa-2x"></i>
                 </a>
@@ -147,9 +147,9 @@
             <p>Om een uur of 12 stapte ik op CS bus 21 uitomdat ik naar de Ipenbare Bibliotheek op weg was, waar ik Stijloefeningen van Q-No wilde lenen. 
             </p>
             <footer>
-                <a href="story5.html">Lees</a>
+                <a href="story7.html">Lees</a>
                 <a href="#" class="addPlaylist">
-                    <i class="fa fa-plus-circle fa-2x"></i>
+                <i class="fa fa-plus-circle fa-2x"></i>
                 </a>
             </footer>
         </article>
@@ -160,9 +160,9 @@
             <p>Om exact 12 uur Nederlandse tijd stap ik op het Centraal Stationsplein uit bus 21 (12 plus 21 is 33, de leeftijd dat Jezus werd gekruisigd. Voor mij ligt Mijn Zoon in zijn wagentje te slapen. Zonder zonden.)
             </p>
             <footer>
-                <a href="https://www.verhalenPagina">Lees</a>
+                <a href="story8.html">Lees</a>
                 <a href="#" class="addPlaylist">
-                    <i class="fa fa-plus-circle fa-2x"></i>
+                <i class="fa fa-plus-circle fa-2x"></i>
                 </a>
             </footer>
         </article>
@@ -172,16 +172,16 @@
 
 
     <div id="addStoryPopup" class="popup">Succesvol aan playlist toegevoegd</div>
-    <section id="playlistModal" class="modal">
+    <div id="playlistModal" class="modal">
 
         <!-- Modal content -->
-        <section class="modal-content">
-            <section class="modal-header">
+        <div class="modal-content">
+            <div class="modal-header">
                 <span class="close">&times;</span>
                 <h2>Toevoegen aan afspeellijst</h2>
-            </section>
-            <section class="modal-body">
-                <form action="">
+            </div>
+            <div class="modal-body">
+                <form action="playlist">
                     <input type="checkbox" name="playlist" value="nice_stories">Leuke verhalen
                     <br>
                     <input type="checkbox" name="playlist" value="prague">Vehalen voor Praag
@@ -190,16 +190,16 @@
                 </form>
                 <hr />
                 <h4>Nieuwe afspeellijst</h4>
-                <form action="">
+                <form action="playListMake">
                     <input type="text" name="playlistName" placeholder="Naam voor afspeellijst">
                 </form>
-            </section>
-            <section class="modal-footer">
-                <a id="addStory" class="buttonVerhalen" href="#">Aanmaken</a>
-            </section>
-        </section>
+            </div>
+            <div class="modal-footer">
+                <a id="addStory" class="buttonVerhalen" href="#">Aanmaken/toevoegen</a>
+            </div>
+        </div>
 
-    </section>
+    </div>
     <script src="js/filters.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>

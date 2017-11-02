@@ -27,34 +27,33 @@ nav {
     margin-bottom: 0;
 }
 
-.section {
-    background-image: url(../strand.jpg);
+.section{
+    background-image: url(../images/strand.jpg);
     background-size: cover;
     background-position: center;
     height: 15em;
     background-color: black;
-    
-    
 }
 
-h1 {
+.section > h1 {
+    font-size: 4em;
+}
+
+h1  {
     color: white;
     font-size: 2em;
     font-family: "Nexa-Bold";
     padding: .9em;
 }
 
-.h2 {
-    color: white;
-    font-size: 4em;
-    font-family: "Nexa-Bold";
-    padding: .9em;
-    
+body header section h1 {
+    font-size: 10em;
 }
 
 
-/*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
 
+/*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
+/*selekteerd alleen de headers in body*/
 body > header ul {
     list-style-type: none;
     margin: 0;
@@ -63,7 +62,7 @@ body > header ul {
     background-color: white;
     display: flex;
 }
-
+/*Header buttons*/
 body > header li a {
     display: block;
     color: #00d66c;
@@ -89,9 +88,7 @@ body > main {
 article {
     color: black;
     padding: 1.5em;
-    
     opacity: 0.9;
-    
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -108,17 +105,8 @@ article {
         opacity: 0.9;
     }
 }
-
-p {
-    
-    
-}
-
-article h1 {
-    color: #00d66c;
-}
-
-article.hidden {
+/*display none voor de show meer button*/
+.hidden {
     display: none;
 }
 
@@ -143,7 +131,7 @@ article footer a:first-child:hover {
 article footer i:hover {
     color: #FF4F83;
 }
-
+/*searchbox*/
 .box {
     margin-left: auto;
 }
@@ -159,7 +147,7 @@ article footer i:hover {
     transition: width 0.55s ease;
 }
 
-.search-container input#search {
+.search-container #search {
     width: 49px;
     height: 50px;
     background: #ffffff;
@@ -182,15 +170,15 @@ article footer i:hover {
 }
 
 .search-container input#search.active {
-    outline: none;
+    
     width: 300px;
 }
 
 .search-container.active {
     width: 300px;
-    outline: none;
+    
 }
-
+/*checken*/
 .plusButton {
     font-size: 1em;
     text-decoration: none;
@@ -202,7 +190,7 @@ article footer i:hover {
     border-radius: 50%;
     margin-left: 15em;
 }
-
+/*selekteerd alleen de headers in body*/
 article footer {
     display: flex;
     justify-content: space-between;
@@ -250,8 +238,6 @@ article footer i {
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
 }
@@ -298,8 +284,8 @@ article footer i {
     cursor: pointer;
 }
 
-.modal-header {
-    padding: 10px 16px;
+.modal-header, .modal-footer {
+    padding:    1em 1em;
     background-color: #5cb85c;
     color: white;
 }
@@ -308,11 +294,6 @@ article footer i {
     padding: 20px 16px;
 }
 
-.modal-footer {
-    padding: 15px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
 
 .modal-content hr {
     margin-top: 20px;
@@ -323,15 +304,12 @@ input[type="text"] {
     width: 100%;
 }
 
-button:focus {
-    outline: 0;
-}
+
 
 ul.navbar-filters {
     background-color: gainsboro;
     opacity: 0.7;
     padding: 10px 10px;
-    font-family: "Cabin", sans-serif;
     font-weight: bold;
     vertical-align: middle;
     display: flex;
@@ -340,7 +318,6 @@ ul.navbar-filters {
 }
 
 ul.navbar-filters button.control {
-    font-family: "Cabin", sans-serif;
     font-weight: bold;
     color: aliceblue;
     background-color: #2800a0;
@@ -550,13 +527,12 @@ section {
 }
 
 #moreBtn {
-  
-   margin-top: 1em;
-   position: absolute;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%);
-   
+      
+    margin-top: 1em;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     font-weight: bold;
     color: aliceblue;
     background-color: #2800a0;
@@ -569,15 +545,9 @@ section {
 
 }
     
-   
-    
-
-         
-
-
 @media screen and (min-width: 20em) and (max-width: 40em) {
     .popup {
         width: 80%;
     }
-    
+}
     
