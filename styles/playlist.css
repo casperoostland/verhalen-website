@@ -27,6 +27,7 @@ main {
     margin: 10px;
 }
 /*selecteer aleen de header in de body waarvan body het directe parent is*/
+/*selekteerd alleen de headers in body*/
 body > header ul {
     list-style-type: none;
     margin: 0;
@@ -35,12 +36,12 @@ body > header ul {
     background-color: white;
     display: flex;
 }
-
+/*Header buttons*/
 body > header li a {
     display: block;
     color: #00d66c;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em 1.1em;
     text-decoration: none;
     font-family: "Nexa-Bold";
     font-weight: bold;
@@ -57,7 +58,6 @@ body > header li a.active {
 body > main {
     margin-bottom: auto;
 }
-
 
 
 
