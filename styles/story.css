@@ -25,7 +25,11 @@
         width: 100%;
         height: 100%;
     }
-  
+    section {
+        min-width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
    
     
 }
@@ -109,13 +113,13 @@ body > section > a {
 	cursor: pointer;
 	position: relative;
 	
-	margin-right: .9em;
+	
 	transition: 5s;
 }
 
 	
 button {
-    
+    display: flex;
     background-image: url("../images/icons/hartGroen.png");
 	background-size: 3em;
 	width: 3em;
@@ -126,8 +130,7 @@ button {
 	cursor: pointer;
 	background-color: rgba(100,100,100, .0);
 	position: relative;
-	margin-right: .9em;
-    margin-top: -5em;
+	
 }
 
 .color-active {
@@ -142,8 +145,7 @@ button {
 	position: relative;
 	margin-right: .9em;
 	transition: 5s;
-    margin-right: .9em;
-    margin-top: -5em;
+    
 }
 
 
