@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Nexa-Bold";
+    src: URL("../fonts/Nexa-Bold.otf");
+}
+
+#counter {
+    
+    color: white;
+    position: absolute;
+    left: 19em;
+    top: 1.3em;
+    font-family: 'Nexa Bold';
+}
+
+
+
+
 .story {
     display: none;
 }
@@ -8,6 +25,7 @@
         width: 100%;
         height: 100%;
     }
+   
     
 }
 
@@ -28,4 +46,111 @@
     }
 }
 
+section {
+    background-color: white;
+    width: 50%;
+    height: 10em;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 2em;
+    text-align: center;
+    
+    
+    
+}
 
+progress {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	background: #2800a0;
+    margin-top: 2em;
+    
+    
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+	font-family: "Nexa Bold";
+    font-family: "Nexa-Bold";
+    
+}
+
+
+
+body > section > a {
+    display: block;
+    width: 5em;
+    background-color: #2800a0;
+    padding: .5em;
+    border-radius: 2em;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 1em;
+  
+      
+    
+   
+}
+
+.color-active {
+	background-image: url('../images/Icons/hartje.png');
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: none;
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+	margin-right: .9em;
+	transition: 5s;
+}
+
+	
+button {
+    display: flex;
+    background-image: url("../images/icons/hartGroen.png");
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: none;
+	cursor: pointer;
+	background-color: rgba(100,100,100, .0);
+	position: relative;
+	
+	margin-right: .9em;
+    margin-left: 3em;
+    margin-top: -5em;
+}
+
+.color-active {
+	background-image: url('../images/icons/hartRood.png');
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: none;
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+	margin-right: .9em;
+	transition: 5s;
+    margin-right: .9em;
+    margin-left: 3em;
+    margin-top: -5em;
+}
+
+
+img {
+    width:2em;
+}

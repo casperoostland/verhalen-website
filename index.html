@@ -24,41 +24,50 @@
                     <a href="inlog/inlog.html">Login</a>
                 </li>
             </ul>
-            <div class="box"  id="searchContainer">
+            <form action="playlist/playlist.html">
+            <div class="box"  id="searchContainer"  >
                 <div class="search-container" id="searchBar">
                     <span class="icon">
                         <i class="fa fa-search"></i>
                     </span>
-                    <input type="search" id="search" placeholder="Search..."> </div>
+                    <input type="search" id="search" placeholder="Search..."> 
+                    </div>
             </div>
+            </form>
         </nav>
+        
+       </header>
        
-    </header>
-    
-    <section class="section">
-      <h1>99 verhalen voor onderweg</h1>
-       
-    </section>
+   
+    <main>
+   <section>
+     <h2>99 VERHALEN</h2>
      <ul class="navbar-filters">
             <li><button type="button" class="filter control" data-filter="long">Lang</button></li>
             <li><button type="button" class="filter control" data-filter="medium">Gemiddeld</button></li>
             <li><button type="button" class="filter control" data-filter="short">Kort</button></li>
         </ul>
-   
-    <main>
+     </section>
+       
+
 
         <article class="long">
             <header>
+             
                 <h1>Sonnet</h1>
-                
+                 
             </header>
             <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal
                 terug.
             </p>
+            
             <footer>
                 <a href="story/story.html">Lees</a>
                 <a href="#" class="addPlaylist">
-                    <i class="fa fa-plus-circle fa-2x"></i>
+                <i class="fa fa-plus-circle fa-2x"></i>
+               
+                
+               
                 </a>
             </footer>
         </article>
@@ -168,17 +177,17 @@
         </article>
           
     </main>
-<a href="#" id="moreBtn">Meer</a>
+    <a href="#" id="moreBtn">Meer</a>
 
 
     <div id="addStoryPopup" class="popup">Succesvol aan playlist toegevoegd</div>
     <div id="playlistModal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content">
+    <div class="modal-content">
             <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>Toevoegen aan afspeellijst</h2>
+                <h3>Toevoegen aan afspeellijst</h3>
             </div>
             <div class="modal-body">
                 <form action="playlist">
@@ -200,10 +209,14 @@
         </div>
 
     </div>
+    
+    
     <script src="js/filters.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>
     <script src="js/search.js"></script>
+     <script src="js/hart.js"></script>
+    
 </body>
 
 </html>

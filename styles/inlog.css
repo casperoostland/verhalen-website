@@ -44,7 +44,7 @@ body > header li a {
     display: block;
     color: #00d66c;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em 1.1em;
     text-decoration: none;
     font-family: "Nexa-Bold";
     font-weight: bold;
@@ -112,8 +112,8 @@ h1, h2, {
 
 form {
     margin-top: 2em;
-    width: 300px;
-    padding: 25px;
+    width: 18.750em;
+    padding: 1.563em;
     color:black;
     font-size: 1em;
     text-align: left;
@@ -133,8 +133,8 @@ form:last-child {
 
 input[type=text], select, input[type=password]{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.750em 1.250em;
+    margin: 0.500em 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;

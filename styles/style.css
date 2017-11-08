@@ -15,9 +15,11 @@ html {
 }
 
 body {
-   
-    
-    background-color: #F3E5D8;
+   background-color: #F3E5D8;
+}
+
+section {
+    margin-bottom: 3em;
 }
 
 nav {
@@ -27,32 +29,26 @@ nav {
     margin-bottom: 0;
 }
 
-.section{
-    background-image: url(../images/strand.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 15em;
-    background-color: black;
-}
-
-.section > h1 {
-    font-size: 4em;
-}
-
-h1  {
+h2  {
+    display: block;
+    margin: 1em;
     color: white;
     font-size: 2em;
     font-family: "Nexa-Bold";
-    padding: .9em;
+    text-align: right;
 }
 
 body header section h1 {
     font-size: 10em;
 }
 
-
-
-/*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
+main > section {
+    height: 15em;
+    width: 100%;
+    background-image: url(../images/strandLaatste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*selekteerd alleen de headers in body*/
 body > header ul {
     list-style-type: none;
@@ -67,7 +63,7 @@ body > header li a {
     display: block;
     color: #00d66c;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em 1.1em;
     text-decoration: none;
     font-family: "Nexa-Bold";
     font-weight: bold;
@@ -87,7 +83,7 @@ body > main {
 
 article {
     color: black;
-    padding: 1.5em;
+    padding: 1em;
     opacity: 0.9;
     border-radius: 5%;
     display: flex;
@@ -109,7 +105,6 @@ article {
 .hidden {
     display: none;
 }
-
 
 .modal-content a,
 article footer a:first-child {
@@ -135,12 +130,10 @@ article footer i:hover {
 .box {
     margin-left: auto;
 }
-
-
 /* https://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069 */
-
 .search-container {
-    width: 49px;
+    margin-top: 0.5em;
+    width: 4em;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
@@ -148,34 +141,32 @@ article footer i:hover {
 }
 
 .search-container #search {
-    width: 49px;
-    height: 50px;
+    width: 1em;
+    height: 3em;
     background: #ffffff;
     border: none;
     font-size: 10pt;
-    float: left;
     color: #63717f;
-    padding-left: 35px;
-    border-radius: 5px;
+    padding-left: 4em;
     transition: width 0.55s ease;
 }
 
 .search-container .icon {
-    position: absolute;
-    top: 50%;
-    margin-left: 17px;
-    margin-top: 17px;
+    margin-left: 0.5em;
+    margin-top: 1em;
     z-index: 1;
-    color: #4f5b66;
+    color: #00d66c;
 }
 
 .search-container input#search.active {
+    background-color: #00d66c;
+    width: 20em;
+    opacity: .7;
     
-    width: 300px;
 }
 
 .search-container.active {
-    width: 300px;
+    width: 18.750em;
     
 }
 
@@ -200,18 +191,16 @@ article footer {
 article footer i {
     color: #ee3569;
 }
-
-
 /* https://www.w3schools.com/howto/howto_css_modals.asp */
-
 .modal {
+    
     display: none;
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
+    padding-top: 6.250em;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -226,11 +215,9 @@ article footer i {
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
 }
-
-
 /* Modal Content */
-
 .modal-content {
+    
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -241,13 +228,10 @@ article footer i {
     animation-name: animatetop;
     animation-duration: 0.4s;
 }
-
-
 /* Add Animation */
-
 @-webkit-keyframes animatetop {
     from {
-        top: -300px;
+        top: -6.250em;
         opacity: 0;
     }
     to {
@@ -255,10 +239,9 @@ article footer i {
         opacity: 1;
     }
 }
-
 @keyframes animatetop {
     from {
-        top: -300px;
+        top: -6.250em;
         opacity: 0;
     }
     to {
@@ -266,14 +249,11 @@ article footer i {
         opacity: 1;
     }
 }
-
-
 /* The Close Button */
-
 .close {
     color: white;
     float: right;
-    font-size: 28px;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -291,29 +271,30 @@ article footer i {
 }
 
 .modal-body {
-    padding: 20px 16px;
+    padding: 1.250em 1.000em;
+    
 }
 
 
 .modal-content hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.250em;
+    margin-bottom: 1.250em;
 }
 
 input[type="text"] {
     width: 100%;
 }
 
-
-
-ul.navbar-filters {
+main section  ul {
     background-color: gainsboro;
-    opacity: 0.7;
-    padding: 10px 10px;
+    margin-top: 10em;
+    padding: 0.625em 0.625em;
     font-weight: bold;
     vertical-align: middle;
     display: flex;
+    
     justify-content: space-around;
+    list-style: none;
     
 }
 
@@ -351,8 +332,8 @@ ul.navbar-filters button.control.active {
         justify-content: flex-end;
     }
     ul.navbar-filters button.control {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0.625em;
+        margin-right: 0.625em;
     }
     article {
         width: 20em;
@@ -423,7 +404,7 @@ main.playlist {
     color: red;
 }
 
-article:first-child {
+article:nth-of-type(1) {
     background-image: url(../images/articleimages/handen%20hart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -511,8 +492,8 @@ section {
     /* doe ff 100 op mobiel */
     height: 50px;
     background-color: gray;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 0.938em;
+    margin-bottom: 0.938em;
     justify-content: center;
     align-items: center;
     color: white;
@@ -550,4 +531,21 @@ section {
         width: 80%;
     }
 }
-    
+
+.color-active {
+	background-image: url('../images/Icons/hartIngevuld-01.png');
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-style: none;
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+	margin-right: .9em;
+	transition: 5s;
+}
+	
+
+

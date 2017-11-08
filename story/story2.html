@@ -13,27 +13,32 @@
     <header>
         <nav>
             <ul>
-               <li>
-                    <a href="../index.html">Verhalen</a>
-                </li>
-                <li>
-                    <a href="../playlist/playlist.html">Playlist</a>
-                </li>
-                <li>
-                    <a href="../inlog/inlog.html">Login</a>
-                </li>
-            </ul>
+                <li> <a href="../index.html">Verhalen</a> </li>
+                <li> <a href="../playlist/playlist.html">Playlist</a> </li>
+                <li> <a href="../inlog/inlog.html">Login</a> </li>
+                <li><a href="../likePagina/likes.html">
+                <img src="../images/Icons/hartGroen.png" id="favorite" alt="hartje"></a> </li>
+				</ul>
+            <div id="counter">0</div> 
         </nav>
     </header>
-    <main> 
-    <img class="story storyMobile" src="../images/zooi/zooiSmall.png" alt="Verhaal Zooi" /> 
-    <img class="story storyTablet" src="../images/zooi/zooiMedium.png" alt="Verhaal Zooi" /> 
-    <img class="story storyDesktop" src="../images/zooi/zooiLarge.png" alt="Verhaal Zooi" /> 
+    <main>
+    <img class="story storyMobile" src="../images/zooi/zooiSmall.png" alt="Verhaal Terugspoelen" /> 
+    <img class="story storyTablet" src="../images/zooi/zooiMedium.png" alt="Verhaal Terugspoelen" /> 
+    <img class="story storyDesktop" src="../images/zooi/zooiLarge.png" alt="Verhaal Terugspoelen" /> 
     </main>
     
-
-   
-    
+		<section>
+		    <h2>Download dit verhaal</h2>
+			<a id="download" onclick="downloading(0)">Download</a>
+			<progress id="progressBar" value="0" max="100"></progress>
+			<span id="status"></span>
+			<button class="heartButton"></button>
+        </section>
+       
+       
+     <script src="../js/hart.js"></script>
+     <script src="../js/story.js"></script>
 </body>
 
 </html>
