@@ -121,7 +121,7 @@ body > section > a {
 	
 button {
     display: flex;
-    background-image: url("../images/icons/hartGroen.png");
+    background-image: url("../images/icons/hartGroen2.png");
 	background-size: 3em;
 	width: 3em;
 	height: 3em;
@@ -131,14 +131,14 @@ button {
 	cursor: pointer;
 	background-color: rgba(100,100,100, .0);
 	position: relative;
-	margin-left: auto;
+	
 	margin-right: .9em;
     margin-left: 3em;
-    margin-top: -5em;
+    
 }
 
 .color-active {
-	background-image: url('../images/icons/hartRood.png');
+	background-image: url('../images/icons/hartRood2.png');
 	background-size: 3em;
 	width: 3em;
 	height: 3em;
@@ -150,8 +150,8 @@ button {
 	margin-right: .9em;
 	transition: 5s;
     margin-right: .9em;
-    margin-left: auto;
-    margin-top: -5em;
+   
+   
 }
 
 
