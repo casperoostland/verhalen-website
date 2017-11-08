@@ -43,7 +43,7 @@
 }
 
 @media screen and (min-width: 68em){
-    .storyDesktoparticle:nth-of-type(2    ) {
+    .storyDesktop {
         display: block;
         width: 100%;
         height: 100%;
@@ -55,20 +55,20 @@
     
 
 section {
-    
+    min-width: 80%;
     background-color: white;
     height: 10em;
     margin-top: 2%;
     margin-bottom: 5%;
     border-radius: 2em;
     text-align: center;
+    overflow: hidden;
 }
 
 progress {
 	
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+	
+	width: 20%;
 	background: #2800a0;
     margin-top: 2em;
     
@@ -79,8 +79,8 @@ h2 {
     color: black;
     text-align: center;
     font-size: 1em;
-	font-family: "Nexa Bold";
-    font-family: "Nexa-Bold";
+	font-family: "Nexa-Bold";
+    margin-top: 1em;
    
     
 }
@@ -88,7 +88,7 @@ h2 {
 
 
 body > section > a {
-   display: block;
+    display: block;
     width: 5em;
     background-color: #2800a0;
     padding: .5em;
@@ -121,7 +121,7 @@ body > section > a {
 
 	
 button {
-    display: flex;
+    display: block;
 	background-image: url('../images/Icons/hartGroen2.png');
 	background-size: 3em;
 	width: 3em;
@@ -132,8 +132,8 @@ button {
 	cursor: pointer;
 	background-color: rgba(255,255,255, .0);
 	position: relative;
-    margin-left: 9%;
-    margin-top: -12%;
+    margin-left: 10%;    
+    margin-top: -10%;
     
 	
    
@@ -150,7 +150,7 @@ button {
 	cursor: pointer;
 	position: relative;
 	
-	
+	margin-right: .9em;
 	transition: 5s;
 }
 
