@@ -67,7 +67,7 @@ progress {
     margin-top: 0.7em;
 }
 
-h2 {
+h1 {
     display: flex;
     color: black;
     text-align: right;
@@ -75,6 +75,7 @@ h2 {
 	font-family: "Nexa-Bold";
     padding-top: 1em;
     margin-top: 0.7em;
+    margin-left: 1em;
 }
 
 body > section > a {
