@@ -25,11 +25,7 @@
         width: 100%;
         height: 100%;
     }
-    section {
-        min-width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
+  
    
     
 }
@@ -131,7 +127,6 @@ button {
 	background-color: rgba(100,100,100, .0);
 	position: relative;
 	margin-right: .9em;
-    
     margin-top: -5em;
 }
 
