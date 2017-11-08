@@ -25,6 +25,9 @@
         width: 100%;
         height: 100%;
     }
+    section{
+        min-width: 80%;
+    }
    
     
 }
@@ -97,7 +100,7 @@ body > section > a {
     
    
 }
-
+/* Bron: Met behulp van Roene */
 .color-active {
 	background-image: url('../images/Icons/hartje.png');
 	background-size: 3em;
