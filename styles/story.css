@@ -25,11 +25,6 @@
         width: 100%;
         height: 100%;
     }
-    section {
-        min-width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
    
     
 }
@@ -120,8 +115,7 @@ body > section > a {
 
 	
 button {
-    display: flex;
-    background-image: url("../images/icons/hartGroen2.png");
+	background-image: url('../images/Icons/hartGroen2.png');
 	background-size: 3em;
 	width: 3em;
 	height: 3em;
@@ -129,16 +123,14 @@ button {
 	background-position: center;
 	border-style: none;
 	cursor: pointer;
-	background-color: rgba(100,100,100, .0);
+	background-color: rgba(255,255,255, .0);
 	position: relative;
-	
+	margin-left: auto;
 	margin-right: .9em;
-    margin-left: 3em;
-    
 }
 
 .color-active {
-	background-image: url('../images/icons/hartRood2.png');
+	background-image: url('../images/Icons/hartRood2.png');
 	background-size: 3em;
 	width: 3em;
 	height: 3em;
@@ -147,11 +139,9 @@ button {
 	border-style: none;
 	cursor: pointer;
 	position: relative;
+	margin-left: auto;
 	margin-right: .9em;
 	transition: 5s;
-    margin-right: .9em;
-   
-   
 }
 
 
