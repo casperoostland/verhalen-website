@@ -537,6 +537,15 @@ section {
     }
 }
 
+#counter {
+    
+    color: #2800a0;
+    position: absolute;
+    left: 15em;
+    top: 0.3em;
+    font-family: 'Nexa Bold';
+}
+
 
 	
 
