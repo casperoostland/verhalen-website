@@ -542,7 +542,7 @@ section {
 	border-style: none;
 	cursor: pointer;
 	position: relative;
-	margin-left: auto;
+	
 	margin-right: .9em;
 	transition: 5s;
 }
