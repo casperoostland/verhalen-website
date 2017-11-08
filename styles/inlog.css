@@ -1,4 +1,4 @@
-   @font-face {
+@font-face {
     font-family: "Nexa-Bold";
     src: URL("../fonts/Nexa-Bold.otf");
 }
@@ -15,22 +15,15 @@ html {
 }
 
 body {
-    
     background-color: #F3E5D8;
 }
 
 nav {
-    
     display: flex;
     background-color: white;
     margin-bottom: 0;
 }
-
-
-
-
 /*selecteer aleen de header in de body selecteerd direct kind in de body//selecteer alle ul die in de header staan*/
-
 body > header ul {
     list-style-type: none;
     margin: 0;
@@ -65,9 +58,7 @@ body > main {
 article {
     color: black;
     padding: 1.5em;
-    
     opacity: 0.9;
-    
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -83,11 +74,6 @@ article {
     to {
         opacity: 0.9;
     }
-}
-
-p {
-    
-    
 }
 
 article h1 {
@@ -106,9 +92,7 @@ main {
 
 h1, h2, {
     color:black;
-
 }
-
 
 form {
     margin-top: 2em;
@@ -187,9 +171,8 @@ border:1px solid #FF3268;
     }
 @media screen and (min-width: 29em){
     form {
-        
         min-width: 20em;
         min-height: 20em;
         
 }
-
+    }

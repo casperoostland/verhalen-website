@@ -1,10 +1,7 @@
-
-
 @font-face {
     font-family: "Nexa-Bold";
     src: URL("../fonts/Nexa-Bold.otf");
 }
-
 
 * {
     margin: 0;
@@ -26,7 +23,6 @@ body {
 main {
     margin: 10px;
 }
-/*selecteer aleen de header in de body waarvan body het directe parent is*/
 /*selekteerd alleen de headers in body*/
 body > header ul {
     list-style-type: none;
@@ -59,8 +55,6 @@ body > main {
     margin-bottom: auto;
 }
 
-
-
 @media screen and (min-width: 20em){
     article {
         min-width: 10em;
@@ -77,9 +71,6 @@ body > main {
         justify-content: center;
     }
 }
-
-
-
 
 .myPlaylist {
     display: flex;
@@ -133,7 +124,6 @@ main.playlist {
 .playlist article header i:hover {
     color: red;
 }
-
 
 article  {
     color: black;
