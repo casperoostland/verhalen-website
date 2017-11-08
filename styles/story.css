@@ -55,13 +55,15 @@
     
 
 section {
-    width: 100%;
+    width: 50%;
     background-color: white;
     height: 10em;
     margin-top: 2%;
-    margin-bottom: 5%;
+    
     border-radius: 2em;
     padding-left: 1em;
+    margin: auto;
+    margin-bottom: 1em;
    
     
 }
@@ -110,7 +112,7 @@ body > section > a {
 }
 /* Bron: Met behulp van Roene */
 .color-active {
-    
+    display: block;
 	background-image: url('../images/Icons/hartje.png');
 	background-size: 3em;
 	width: 2em;
@@ -138,8 +140,9 @@ button {
 	cursor: pointer;
 	background-color: rgba(255,255,255, .0);
 	position: relative;
-    margin-left: 90%;    
-    margin-top: -6%;
+    margin-left: auto;
+    margin-top: -17%;
+    margin-right: 8%;
     
 	
    
@@ -155,8 +158,9 @@ button {
 	border-style: none;
 	cursor: pointer;
 	position: relative;
-	
-	margin-right: .9em;
+	margin-left: auto;
+    margin-top: -17%;
+    margin-right: 8%;
 	transition: 5s;
 }
 
